@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLStream", "GraphQLStream.csproj", "{461AE149-9BF2-EEF7-306A-8A085267A301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{461AE149-9BF2-EEF7-306A-8A085267A301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461AE149-9BF2-EEF7-306A-8A085267A301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461AE149-9BF2-EEF7-306A-8A085267A301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461AE149-9BF2-EEF7-306A-8A085267A301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82F1856D-0F82-44FA-8E2B-A2C707B3F3CA}
+	EndGlobalSection
+EndGlobal
