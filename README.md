@@ -78,10 +78,9 @@ You can now start the application:
 
 ```bash
 dotnet run
-The application will start and be available on http://localhost:5000/graphql.
 ```
 
-The GraphQL UI will be helpful in running the queries. It is super responsive and easier to debug.
+The application will start and be available on http://localhost:5000/graphql. The GraphQL UI will be helpful in running the queries. It is super responsive and easier to debug.
 
 5. **Test the GraphQL Queries**
 
