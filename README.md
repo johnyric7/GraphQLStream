@@ -199,6 +199,13 @@ Example GraphQL Queries, Mutations and Subscription
     **createdTimestamp:** The timestamp when the user's location was created.
     **updatedTimestamp:** The timestamp when the user's location was last updated.
 
+5.  **_Run testscript_**
+    Subscription can be enabled on the userId and then run the following script, the location is updated and sent through WebSockets.
+
+    ```bash
+    python3 testscript.py "131b1e73-d8cb-4d3f-aaff-e3cb90b3b3b1" "TestUser"
+    ```
+
 ### 6. **Stop the Application and Docker Services**:
 
 - When you are finished, stop the application by pressing Ctrl + C in the terminal where dotnet run is running.
