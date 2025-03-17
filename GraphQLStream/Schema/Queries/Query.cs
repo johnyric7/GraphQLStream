@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HotChocolate;
+using HotChocolate.Types;
 
 namespace GraphQLStream.Schema.Queries
 {
@@ -16,6 +18,7 @@ namespace GraphQLStream.Schema.Queries
             _mongoDbRepository = mongoDbRepository;
         }
 
+        [UsePaging(IncludeTotalCount = true, DefaultPageSize = 100)]
         public async Task<IEnumerable<UserLocationType>> GetUsers()
         {
             IEnumerable<UserLocationDTO> userLocationDTO = await _mongoDbRepository.GetAllAsync();
